@@ -1,0 +1,628 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		416D73FC1AC15AF10094720B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 416D73FB1AC15AF10094720B /* main.m */; };
+		416D73FF1AC15AF10094720B /* WMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 416D73FE1AC15AF10094720B /* WMAppDelegate.m */; };
+		416D74021AC15AF10094720B /* WMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 416D74011AC15AF10094720B /* WMViewController.m */; };
+		416D74071AC15AF10094720B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 416D74061AC15AF10094720B /* Images.xcassets */; };
+		416D740A1AC15AF10094720B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 416D74081AC15AF10094720B /* LaunchScreen.xib */; };
+		416D74211AC15D010094720B /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 416D741F1AC15D010094720B /* Localizable.strings */; };
+		416D74331AC2B1F10094720B /* WMWellDoneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 416D74321AC2B1F10094720B /* WMWellDoneViewController.m */; };
+		77F319A61B4C386269B4087D /* libPods-WorkshopMetricaSender.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 980CD3EBFB96F6003BA33EFC /* libPods-WorkshopMetricaSender.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		416D74101AC15AF10094720B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 416D73EE1AC15AF10094720B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 416D73F51AC15AF10094720B;
+			remoteInfo = WorkshopMetricaSender;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		416D73F61AC15AF10094720B /* WorkshopMetricaSender.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WorkshopMetricaSender.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		416D73FA1AC15AF10094720B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		416D73FB1AC15AF10094720B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		416D73FD1AC15AF10094720B /* WMAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WMAppDelegate.h; sourceTree = "<group>"; };
+		416D73FE1AC15AF10094720B /* WMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WMAppDelegate.m; sourceTree = "<group>"; };
+		416D74001AC15AF10094720B /* WMViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WMViewController.h; sourceTree = "<group>"; };
+		416D74011AC15AF10094720B /* WMViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WMViewController.m; sourceTree = "<group>"; };
+		416D74061AC15AF10094720B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		416D74091AC15AF10094720B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		416D740F1AC15AF10094720B /* WorkshopMetricaSenderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WorkshopMetricaSenderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		416D74141AC15AF10094720B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		416D74201AC15D010094720B /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
+		416D74311AC2B1F10094720B /* WMWellDoneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMWellDoneViewController.h; sourceTree = "<group>"; };
+		416D74321AC2B1F10094720B /* WMWellDoneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMWellDoneViewController.m; sourceTree = "<group>"; };
+		980CD3EBFB96F6003BA33EFC /* libPods-WorkshopMetricaSender.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WorkshopMetricaSender.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5315BE460036179F45A69A7 /* Pods-WorkshopMetricaSender.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WorkshopMetricaSender.release.xcconfig"; path = "Pods/Target Support Files/Pods-WorkshopMetricaSender/Pods-WorkshopMetricaSender.release.xcconfig"; sourceTree = "<group>"; };
+		E675F132D2FE92DEB2090701 /* Pods-WorkshopMetricaSender.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WorkshopMetricaSender.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WorkshopMetricaSender/Pods-WorkshopMetricaSender.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		416D73F31AC15AF10094720B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77F319A61B4C386269B4087D /* libPods-WorkshopMetricaSender.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		416D740C1AC15AF10094720B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		416D73ED1AC15AF10094720B = {
+			isa = PBXGroup;
+			children = (
+				416D73F81AC15AF10094720B /* WorkshopMetricaSender */,
+				416D74121AC15AF10094720B /* WorkshopMetricaSenderTests */,
+				416D73F71AC15AF10094720B /* Products */,
+				AE6A126E6D9265EE428E7773 /* Pods */,
+				C46F21E4A0DF69999CF2AE5D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		416D73F71AC15AF10094720B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				416D73F61AC15AF10094720B /* WorkshopMetricaSender.app */,
+				416D740F1AC15AF10094720B /* WorkshopMetricaSenderTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		416D73F81AC15AF10094720B /* WorkshopMetricaSender */ = {
+			isa = PBXGroup;
+			children = (
+				416D73FD1AC15AF10094720B /* WMAppDelegate.h */,
+				416D73FE1AC15AF10094720B /* WMAppDelegate.m */,
+				416D74001AC15AF10094720B /* WMViewController.h */,
+				416D74011AC15AF10094720B /* WMViewController.m */,
+				416D74311AC2B1F10094720B /* WMWellDoneViewController.h */,
+				416D74321AC2B1F10094720B /* WMWellDoneViewController.m */,
+				416D74061AC15AF10094720B /* Images.xcassets */,
+				416D741F1AC15D010094720B /* Localizable.strings */,
+				416D74081AC15AF10094720B /* LaunchScreen.xib */,
+				416D73F91AC15AF10094720B /* Supporting Files */,
+			);
+			path = WorkshopMetricaSender;
+			sourceTree = "<group>";
+		};
+		416D73F91AC15AF10094720B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				416D73FA1AC15AF10094720B /* Info.plist */,
+				416D73FB1AC15AF10094720B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		416D74121AC15AF10094720B /* WorkshopMetricaSenderTests */ = {
+			isa = PBXGroup;
+			children = (
+				416D74131AC15AF10094720B /* Supporting Files */,
+			);
+			path = WorkshopMetricaSenderTests;
+			sourceTree = "<group>";
+		};
+		416D74131AC15AF10094720B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				416D74141AC15AF10094720B /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AE6A126E6D9265EE428E7773 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E675F132D2FE92DEB2090701 /* Pods-WorkshopMetricaSender.debug.xcconfig */,
+				D5315BE460036179F45A69A7 /* Pods-WorkshopMetricaSender.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C46F21E4A0DF69999CF2AE5D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				980CD3EBFB96F6003BA33EFC /* libPods-WorkshopMetricaSender.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		416D73F51AC15AF10094720B /* WorkshopMetricaSender */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 416D74191AC15AF10094720B /* Build configuration list for PBXNativeTarget "WorkshopMetricaSender" */;
+			buildPhases = (
+				739B243576120E3E75A5A100 /* Check Pods Manifest.lock */,
+				416D73F21AC15AF10094720B /* Sources */,
+				416D73F31AC15AF10094720B /* Frameworks */,
+				416D73F41AC15AF10094720B /* Resources */,
+				B2FBD68A7DB09B7B5CEE77CD /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WorkshopMetricaSender;
+			productName = WorkshopMetricaSender;
+			productReference = 416D73F61AC15AF10094720B /* WorkshopMetricaSender.app */;
+			productType = "com.apple.product-type.application";
+		};
+		416D740E1AC15AF10094720B /* WorkshopMetricaSenderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 416D741C1AC15AF10094720B /* Build configuration list for PBXNativeTarget "WorkshopMetricaSenderTests" */;
+			buildPhases = (
+				416D740B1AC15AF10094720B /* Sources */,
+				416D740C1AC15AF10094720B /* Frameworks */,
+				416D740D1AC15AF10094720B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				416D74111AC15AF10094720B /* PBXTargetDependency */,
+			);
+			name = WorkshopMetricaSenderTests;
+			productName = WorkshopMetricaSenderTests;
+			productReference = 416D740F1AC15AF10094720B /* WorkshopMetricaSenderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		416D73EE1AC15AF10094720B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = Yandex;
+				TargetAttributes = {
+					416D73F51AC15AF10094720B = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					416D740E1AC15AF10094720B = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 416D73F51AC15AF10094720B;
+					};
+				};
+			};
+			buildConfigurationList = 416D73F11AC15AF10094720B /* Build configuration list for PBXProject "WorkshopMetricaSender" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 416D73ED1AC15AF10094720B;
+			productRefGroup = 416D73F71AC15AF10094720B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				416D73F51AC15AF10094720B /* WorkshopMetricaSender */,
+				416D740E1AC15AF10094720B /* WorkshopMetricaSenderTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		416D73F41AC15AF10094720B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				416D740A1AC15AF10094720B /* LaunchScreen.xib in Resources */,
+				416D74211AC15D010094720B /* Localizable.strings in Resources */,
+				416D74071AC15AF10094720B /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		416D740D1AC15AF10094720B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		739B243576120E3E75A5A100 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B2FBD68A7DB09B7B5CEE77CD /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WorkshopMetricaSender/Pods-WorkshopMetricaSender-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		416D73F21AC15AF10094720B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				416D74021AC15AF10094720B /* WMViewController.m in Sources */,
+				416D73FF1AC15AF10094720B /* WMAppDelegate.m in Sources */,
+				416D74331AC2B1F10094720B /* WMWellDoneViewController.m in Sources */,
+				416D73FC1AC15AF10094720B /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		416D740B1AC15AF10094720B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		416D74111AC15AF10094720B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 416D73F51AC15AF10094720B /* WorkshopMetricaSender */;
+			targetProxy = 416D74101AC15AF10094720B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		416D74081AC15AF10094720B /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				416D74091AC15AF10094720B /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		416D741F1AC15D010094720B /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				416D74201AC15D010094720B /* Base */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		416D74171AC15AF10094720B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		416D74181AC15AF10094720B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		416D741A1AC15AF10094720B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E675F132D2FE92DEB2090701 /* Pods-WorkshopMetricaSender.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WorkshopMetricaSender/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = WorkshopMetricaSender;
+			};
+			name = Debug;
+		};
+		416D741B1AC15AF10094720B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D5315BE460036179F45A69A7 /* Pods-WorkshopMetricaSender.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WorkshopMetricaSender/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = WorkshopMetricaSender;
+			};
+			name = Release;
+		};
+		416D741D1AC15AF10094720B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = WorkshopMetricaSenderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = WorkshopMetricaSenderTests;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WorkshopMetricaSender.app/WorkshopMetricaSender";
+			};
+			name = Debug;
+		};
+		416D741E1AC15AF10094720B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = WorkshopMetricaSenderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = WorkshopMetricaSenderTests;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WorkshopMetricaSender.app/WorkshopMetricaSender";
+			};
+			name = Release;
+		};
+		416D74461AC33C4D0094720B /* AdHoc */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = AdHoc;
+		};
+		416D74471AC33C4D0094720B /* AdHoc */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D5315BE460036179F45A69A7 /* Pods-WorkshopMetricaSender.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WorkshopMetricaSender/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = WorkshopMetricaSender;
+			};
+			name = AdHoc;
+		};
+		416D74481AC33C4E0094720B /* AdHoc */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = WorkshopMetricaSenderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = WorkshopMetricaSenderTests;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WorkshopMetricaSender.app/WorkshopMetricaSender";
+			};
+			name = AdHoc;
+		};
+		416D74491AC33C540094720B /* AppStore */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = AppStore;
+		};
+		416D744A1AC33C540094720B /* AppStore */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D5315BE460036179F45A69A7 /* Pods-WorkshopMetricaSender.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WorkshopMetricaSender/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = WorkshopMetricaSender;
+			};
+			name = AppStore;
+		};
+		416D744B1AC33C540094720B /* AppStore */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = WorkshopMetricaSenderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = WorkshopMetricaSenderTests;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WorkshopMetricaSender.app/WorkshopMetricaSender";
+			};
+			name = AppStore;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		416D73F11AC15AF10094720B /* Build configuration list for PBXProject "WorkshopMetricaSender" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				416D74171AC15AF10094720B /* Debug */,
+				416D74181AC15AF10094720B /* Release */,
+				416D74461AC33C4D0094720B /* AdHoc */,
+				416D74491AC33C540094720B /* AppStore */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		416D74191AC15AF10094720B /* Build configuration list for PBXNativeTarget "WorkshopMetricaSender" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				416D741A1AC15AF10094720B /* Debug */,
+				416D741B1AC15AF10094720B /* Release */,
+				416D74471AC33C4D0094720B /* AdHoc */,
+				416D744A1AC33C540094720B /* AppStore */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		416D741C1AC15AF10094720B /* Build configuration list for PBXNativeTarget "WorkshopMetricaSenderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				416D741D1AC15AF10094720B /* Debug */,
+				416D741E1AC15AF10094720B /* Release */,
+				416D74481AC33C4E0094720B /* AdHoc */,
+				416D744B1AC33C540094720B /* AppStore */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 416D73EE1AC15AF10094720B /* Project object */;
+}
