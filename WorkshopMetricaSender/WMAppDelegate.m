@@ -7,7 +7,7 @@
 
 #import <YandexMobileMetrica/YandexMobileMetrica.h>
 
-static NSString *const kWMAPIKey = @"37550";
+static NSString *const kWMAPIKey = @"37970";
 
 @implementation WMAppDelegate
 
